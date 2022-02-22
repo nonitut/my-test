@@ -1,0 +1,32 @@
+.section1{
+
+  justify-content: center;
+  display: flex;
+}
+div{
+  margin-top: 5%;
+  position: absolute;
+  width: 400px;
+  height: 700px;
+  background: blue;
+  border-radius: 50px;
+  text-align: center;
+  cursor: cell;
+}
+div:hover{
+  box-shadow: 0px 4px 100px #BF2593;
+  border-radius: 50px;
+}
+p{
+  color: #fff;
+  margin: 5px;
+  font-family: futura;
+  font-weight: bold;
+}
+.hcase{
+  text-align: center;
+  font-family: futura;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 20px;
+}
