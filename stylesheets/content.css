@@ -4,22 +4,26 @@
   display: flex;
 }
 div{
-  margin-top: 5%;
+  margin-top: 8%;
   position: absolute;
   width: 400px;
-  height: 700px;
+  height: 550px;
   background: blue;
   border-radius: 50px;
+  border: 2px solid #CB97F4;
   text-align: center;
   cursor: cell;
+  overflow: hidden;
 }
 div:hover{
   box-shadow: 0px 4px 100px #BF2593;
   border-radius: 50px;
+  border: 2px solid #000000;
+
 }
 p{
   color: #fff;
-  margin: 5px;
+  margin: 5%;
   font-family: futura;
   font-weight: bold;
 }
@@ -28,5 +32,46 @@ p{
   font-family: futura;
   font-weight: bold;
   font-size: 45px;
-  margin: 20px;
+  margin: 3%;
+}
+.img1{
+  margin-top: 78px;
+  width: 300px;
+  position: absolute;
+  z-index: 3;
+  margin-left: -150px;
+}
+.img2{
+  margin-top: 90px;
+  margin-left: -200px;
+  width: 400px;
+  position: absolute;
+  z-index: 2;
+
+}
+.img3{
+  margin-top: 180px;
+  margin-left: -100px;
+  width: 220px;
+  position: absolute;
+  z-index: 4;
+  animation: img3 2s infinite ;
+}
+@keyframes img3{
+  0%{ top: 100px}
+  50%{ top: 80px}
+  100%{ top: 100px}
+}
+.p1, .p2, .p3{
+  position: absolute;
+  z-index: 0;
+}
+.p1{
+margin: 10%;
+}
+.p2,{
+margin: 20%;
+}
+.p3{
+margin: 15%;
 }
