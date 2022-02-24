@@ -75,3 +75,27 @@ margin: 20%;
 .p3{
 margin: 15%;
 }
+a{
+  color: #fff;
+  font-family: futura;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration:none;
+
+}
+a:hover{
+  color: #5D5FEF;
+  font-family: futura;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration:none;
+}
+.a{
+  margin-top: 20%;
+  border: none;
+}
+.a:hover{
+  margin-top: 20%;
+  border: none;
+  box-shadow:none;
+}
