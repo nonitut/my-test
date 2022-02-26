@@ -1,6 +1,5 @@
 .section1{
-
-  justify-content: center;
+justify-content: center;
   display: flex;
 }
 div{
@@ -8,17 +7,17 @@ div{
   position: absolute;
   width: 400px;
   height: 550px;
-  background: blue;
+  background: #5B63E6;
   border-radius: 50px;
-  border: 2px solid #CB97F4;
+  border: 0.5px solid #ffff;
   text-align: center;
-  cursor: cell;
+  cursor:  grab;
   overflow: hidden;
 }
 div:hover{
-  box-shadow: 0px 4px 100px #BF2593;
+  box-shadow: 4px 4px 100px #5461FF;
   border-radius: 50px;
-  border: 2px solid #000000;
+  border: 1px solid #ffff;
 
 }
 p{
@@ -84,7 +83,7 @@ a{
 
 }
 a:hover{
-  color: #5D5FEF;
+  color: #0021F5;
   font-family: futura;
   font-weight: bolder;
   font-size: 50px;
@@ -99,3 +98,30 @@ a:hover{
   border: none;
   box-shadow:none;
 }
+
+.img8{
+  margin-top: 5%;
+  width: 80%
+}
+
+H2{
+  color: #fff;
+  font-family: futura;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration:none;
+}
+h2:hover{
+  color: #9399FA;
+}
+.h2{
+    margin-top: 20%;
+    border: none;
+
+  }
+  .h2:hover{
+
+    margin-top: 20%;
+    border: none;
+    box-shadow:none;
+  }
